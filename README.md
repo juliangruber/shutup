@@ -4,6 +4,8 @@
 EventEmitters by default print a warning on the console when you add more than
 10 listeners. This module makes EventEmitters shut up!
 
+[![build status](https://secure.travis-ci.org/juliangruber/shutup.png)](http://travis-ci.org/juliangruber/shutup)
+
 ## Usage
 
 ```js
