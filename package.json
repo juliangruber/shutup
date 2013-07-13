@@ -1,7 +1,7 @@
 {
   "name": "shutup",
   "description": "Make an EventEmitter shut up.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/shutup.git"

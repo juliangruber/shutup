@@ -1,7 +1,8 @@
 
 # shutup
 
-Make an EventEmitter shut up.
+EventEmitters by default print a warning on the console when you add more than
+10 listeners. This module makes EventEmitters shut up!
 
 ## Usage
 
@@ -20,6 +21,18 @@ shutup(ee);
 ```
 
 Since a Stream also is an EventEmitter this works with streams the same way.
+
+## ORLY?
+
+This is the cooler version of `ee.setMaxListeners(Infinity)` and more
+convenient since you can use it in the same line as you create the
+EventEmitter.
+
+This is how it looks with [through](https://github.com/dominictarr/through):
+
+```js
+var tr = shutup(through());
+```
 
 ## API
 
